@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul,ol,li {
+    list-style-type: none;
+}
+
+.header {
+    height: 48px;
+}
+
+.main {
+    width: 998px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 998px;
+    margin: 0 auto;
+    height: 28px;
+    padding-top: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.header ul a:hover {
+    text-decoration: underline;
+}
+.header ul {
+    float: right;
+}
+.header li {
+    display: inline;
+    margin-left: 15px; 
+    font-weight: 350;
+    font-size: 14px;
+}
+.home {
+    font-weight: 700;
+    font-size: 20px;
+    float: left;
+    color: #444;
+}
+
+.welcome {
+    font-size: 40px;
+    font-weight: 700;
+    color: #444;
+}
+
+.welcome span {
+    display: block;
+    padding-top: 30px;
+    text-align: left;
+}
+
+.first-line {
+    margin-top: 50px;
+}
+
+.footer {
+    height: 28px;
+    padding: 10px;
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+    text-align: right;
+}
+
+.blog-carousel, .projects-carousel {
+    height: 480px;
+    margin-top: 40px;
+    border:1px solid #ece9e9;
+    border-radius:10px;
+    overflow: hidden;
+}
+
+.blog-carousel {
+    margin-top: 20px;
+}
+#blog-carousel-images, #projects-carousel-images {
+    width: 5000px;
+}
+
+#blog-carousel-images img, #projects-carousel-images img {
+    float: left;
+    height: 480px;
+    width: 1000px;
+}

@@ -1,0 +1,9 @@
+*.py[cod]
+__pycache__
+*.log
+logs
+.DS_Store
+.idea
+.vscode
+*.pyc
+
